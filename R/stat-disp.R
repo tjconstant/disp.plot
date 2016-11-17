@@ -1,22 +1,3 @@
-#' Title
-#'
-#' @param data
-#' @param scales
-#' @param params
-#' @param fx
-#' @param fy
-#' @param nx
-#' @param ny
-#' @param method
-#' @param midpoint
-#'
-#' @return 1
-#' @export
-#'
-#' @examples 1
-#' @keywords internal
-#'
-
 StatDisp <- ggproto("StatDisp", Stat,
 
 
@@ -74,21 +55,7 @@ StatDisp <- ggproto("StatDisp", Stat,
                     required_aes = c("x", "y","fill")
 )
 
-#' Title
-#'
-#' @param mapping
-#' @param data
-#' @param geom
-#' @param position
-#' @param na.rm
-#' @param show.legend
-#' @param inherit.aes
-#' @param ...
-#'
-#' @return 1
-#' @export
-#'
-#' @examples 1
+
 stat_disp <- function(mapping = NULL, data = NULL, geom = "polygon",
                       position = "identity", na.rm = FALSE, show.legend = NA,
                       inherit.aes = TRUE, ...) {

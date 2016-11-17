@@ -1,17 +1,7 @@
 ggproto<-ggplot2::ggproto
 
 GeomPolygonDisp <- ggproto("GeomPolygonDisp", Geom,
-#' Title
-#'
-#' @param data
-#' @param panel_scales
-#' @param coord
-#'
-#' @return 1
-#' @export 1
-#'
-#' @examples
-#' @keywords internal
+
                            draw_panel = function(data, panel_scales, coord) {
                              n <- nrow(data)
                              if (n == 1) return(zeroGrob())
@@ -51,7 +41,7 @@ GeomPolygonDisp <- ggproto("GeomPolygonDisp", Geom,
                            draw_key = draw_key_polygon
 )
 
-#' Title
+#' image plot of irregular spaced matrix data with aribitary transformations
 #'
 #' @inheritParams ggplot2::geom_polygon
 #' @param formula The modelling formula passed to \code{lm}. Should only

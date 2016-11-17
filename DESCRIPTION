@@ -1,11 +1,16 @@
 Package: disp.plot
 Type: Package
-Title: What the Package Does (Title Case)
+Title: plotting of irregular spaced matrix data with aribitary transformations
 Version: 0.1
 Date: 2015-12-22
-Author: Who wrote it
-Maintainer: Who to complain to <yourfault@somewhere.net>
-Depends: R (>= 3.1.0), ggplot2 (>= 2.0.0), grid
-Description: More about what it does (maybe more than one line)
-License: What license is it under?
+Author: Tom Constant
+Maintainer: Tom Constant <spam@spam.com>
+Depends:
+    R (>= 3.1.0),
+    ggplot2 (>= 2.0.0),
+    grid
+Description: plotting of irregular spaced matrix data with aribitary
+    transformations
+License: MIT
 LazyData: TRUE
+RoxygenNote: 5.0.1

@@ -66,12 +66,11 @@ fy <- function(x,y) x*cos(y*pi/180)
 
 disp.plot(x,y,z,fx,fy,nx=300,ny=300,method = "bicubic")
 }
-\author{
-Tom Constant
-}
 \seealso{
 \code{\link[fields]{image.plot}},
 \code{\link[akima]{interp}},
 \code{\link[akima]{bicubic.grid}}
 }
-
+\author{
+Tom Constant
+}

@@ -42,4 +42,3 @@ image(a$z)
 \code{\link[akima]{interp}},
 \code{\link[akima]{bicubic.grid}}
 }
-

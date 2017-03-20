@@ -47,7 +47,7 @@ GeomPolygonDisp <- ggproto("GeomPolygonDisp", Geom,
 #' @param formula The modelling formula passed to \code{lm}. Should only
 #'   involve \code{y} and \code{x}
 #' @param n Number of points used for interpolation.
-#' @param ...
+#' @param ... Additional arguments to be passed to the geom or stat
 #'
 #' @export
 #'

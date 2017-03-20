@@ -42,7 +42,7 @@ rather than combining with them. This is most useful for helper functions
 that define both data and aesthetics and shouldn't inherit behaviour from
 the default plot specification, e.g. \code{\link{borders}}.}
 
-\item{...}{}
+\item{...}{Additional arguments to be passed to the geom or stat}
 
 \item{formula}{The modelling formula passed to \code{lm}. Should only
 involve \code{y} and \code{x}}
@@ -75,4 +75,3 @@ q<-ggplot(SPPdispersion, aes(x=wavelength, y=angle,fill=reflection)) +
   geom_disp(fx=fx,fy=fy)+coord_equal()
 print(q)
 }
-

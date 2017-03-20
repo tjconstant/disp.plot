@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/tjconstant/mlfilms.svg?branch=master)](https://travis-ci.org/tjconstant/disp.plot) [![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/mlfilms)](https://cran.r-project.org/package=disp.plot)
+[![Build Status](https://travis-ci.org/tjconstant/disp.plot.svg?branch=master)](https://travis-ci.org/tjconstant/disp.plot) [![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/mlfilms)](https://cran.r-project.org/package=disp.plot)
 
 
 disp.plot

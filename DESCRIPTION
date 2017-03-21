@@ -4,7 +4,7 @@ Title: plotting of irregular spaced matrix data with aribitary transformations
 Version: 0.1.1
 Date: 2015-12-22
 Author: Tom Constant
-Maintainer: Tom Constant <spam@spam.com>
+Maintainer: Tom Constant <t.j.constant@gmail.com>
 Depends:
     R (>= 3.1.0),
     ggplot2 (>= 2.0.0),

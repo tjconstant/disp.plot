@@ -9,5 +9,5 @@ Installation
 ------------
 
 ``` r
-devtools::install_github('tjconstant/mlfilms')
+devtools::install_github('tjconstant/disp.plot')
 ```
